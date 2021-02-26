@@ -1,0 +1,10 @@
+sterc_0 animate["terc", 0];
+sterc_1 animate["terc", 0];
+sterc_2 animate["terc", 0];
+sterc_3 animate["terc", 0];
+sterc_4 animate["terc", 0];
+sterc_5 animate["terc", 0];
+sterc_6 animate["terc", 0];
+sterc_31 animate["terc", 0];
+sterc_32 animate["terc", 0];
+hint "Odstřelovací cíle resetovány.";

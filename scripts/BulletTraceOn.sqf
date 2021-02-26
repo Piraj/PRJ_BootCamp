@@ -1,0 +1,1 @@
+[player, 1] spawn BIS_fnc_traceBullets;
