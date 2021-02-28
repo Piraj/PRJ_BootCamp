@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=927;
+		nextID=936;
 	};
 	class MarkerIDProvider
 	{
-		nextID=13;
+		nextID=14;
 	};
 	class LayerIndexProvider
 	{
-		nextID=174;
+		nextID=181;
 	};
 	class Camera
 	{
-		pos[]={1319.2949,87.248245,1032.5216};
-		dir[]={0.50793719,-0.7570985,-0.41085482};
-		up[]={0.58863926,0.6533007,-0.47613224};
-		aside[]={-0.62889075,0,-0.7774936};
+		pos[]={3220.6675,52.599934,4044.0137};
+		dir[]={0.44782969,-0.80484343,-0.38948426};
+		up[]={0.60729539,0.5934878,-0.5281738};
+		aside[]={-0.65625089,2.7823262e-007,-0.75455862};
 	};
 };
 binarizationWanted=0;
@@ -67,14 +67,14 @@ addons[]=
 	"A3_Rocks_F_Enoch",
 	"ace_slideshow",
 	"RHS_US_A2_AirImport",
-	"rhsusf_c_f22",
 	"rhsusf_c_melb",
 	"ace_compat_rhs_usf3",
 	"A3_Supplies_F_Heli_Slingload",
 	"ace_refuel",
 	"ace_rearm",
 	"ace_cargo",
-	"A3_Props_F_Jets_Military_Trolley",
+	"A3_Air_F_EPC_Plane_CAS_01",
+	"ace_realisticnames",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F_Intel",
 	"A3_Characters_F_Common",
@@ -107,7 +107,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=55;
+		items=54;
 		class Item0
 		{
 			className="A3_Rocks_F";
@@ -319,157 +319,150 @@ class AddonsMetaData
 		};
 		class Item32
 		{
-			className="rhsusf_c_f22";
-			name="F-22 Fighter";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item33
-		{
 			className="rhsusf_c_melb";
 			name="MELB";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item34
+		class Item33
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item35
+		class Item34
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item35
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item37
+		class Item36
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item38
+		class Item37
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item39
+		class Item38
 		{
-			className="A3_Props_F_Jets";
-			name="Arma 3 Jets - Decorative and Mission Objects";
+			className="A3_Air_F_EPC";
+			name="Arma 3 Win Episode - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item40
+		class Item39
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item41
+		class Item40
 		{
 			className="A3_Boat_F_Jets";
 			name="Arma 3 Jets - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item42
+		class Item41
 		{
 			className="A3_Boat_F_Destroyer";
 			name="Arma 3 Jets - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item43
+		class Item42
 		{
 			className="A3_Boat_F";
 			name="Arma 3 Alpha - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item44
+		class Item43
 		{
 			className="A3_Static_F_Destroyer";
 			name="CFGPATCHES_A3_Static_F_Destroyer";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item45
+		class Item44
 		{
 			className="A3_Static_F_Jets";
 			name="Arma 3 Jets - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item46
+		class Item45
 		{
 			className="A3_Air_F_Jets";
 			name="Arma 3 Jets - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item47
+		class Item46
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item48
+		class Item47
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item49
+		class Item48
 		{
 			className="A3_Structures_F_Mark";
 			name="Arma 3 Marksmen - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item50
+		class Item49
 		{
 			className="CUP_CABuildings_Misc";
 			name="CUP_CABuildings_Misc";
 		};
-		class Item51
+		class Item50
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item51
 		{
 			className="UK3CB_Factions_Common";
 			name="3CB Factions - Common";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item53
+		class Item52
 		{
 			className="rhsusf_c_markvsoc";
 			name="Mark V SOC";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item54
+		class Item53
 		{
 			className="A3_Boat_F_Beta";
 			name="Arma 3 Beta - Boats and Submersibles";
@@ -618,11 +611,12 @@ class Mission
 	};
 	class Entities
 	{
-		items=31;
+		items=26;
 		class Item0
 		{
 			dataType="Layer";
 			name="Sniper Range";
+			state=1;
 			class Entities
 			{
 				items=21;
@@ -1269,6 +1263,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Base";
+			state=1;
 			class Entities
 			{
 				items=47;
@@ -7507,9 +7502,10 @@ class Mission
 		{
 			dataType="Layer";
 			name="Airfield";
+			state=1;
 			class Entities
 			{
-				items=22;
+				items=25;
 				class Item0
 				{
 					dataType="Object";
@@ -7613,25 +7609,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3428.4263,21.609249,3699.9253};
-						angles[]={0,2.6580253,0};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-						reportRemoteTargets=1;
-						receiveRemoteTargets=1;
-						reportOwnPosition=1;
-					};
-					id=253;
-					type="rhsusf_f22";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={3500.928,20.840078,3547.7124};
 						angles[]={0,0.020036379,0};
 					};
@@ -7689,7 +7666,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item3
+				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
@@ -7748,7 +7725,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item4
+				class Item3
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -7953,7 +7930,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item5
+				class Item4
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -8158,7 +8135,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -8363,7 +8340,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -8567,7 +8544,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -8771,7 +8748,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item9
+				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8813,16 +8790,16 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Marker";
-					position[]={3521.8081,18.9,3549.373};
+					position[]={3530.4226,18.9,3548.5396};
 					name="airbase1";
 					text="Helikoptéry";
 					type="mil_triangle";
 					id=37;
 				};
-				class Item11
+				class Item10
 				{
 					dataType="Marker";
 					position[]={3432.512,19.080999,3690.667};
@@ -8832,7 +8809,7 @@ class Mission
 					id=268;
 					atlOffset=0.00026512146;
 				};
-				class Item12
+				class Item11
 				{
 					dataType="Marker";
 					position[]={3849.7871,18.986,3548.5701};
@@ -8842,7 +8819,7 @@ class Mission
 					id=269;
 					atlOffset=0.00029754639;
 				};
-				class Item13
+				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8859,7 +8836,7 @@ class Mission
 					type="B_Slingload_01_Fuel_F";
 					atlOffset=-7.0571899e-005;
 				};
-				class Item14
+				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8947,7 +8924,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item15
+				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8964,160 +8941,7 @@ class Mission
 					type="B_Slingload_01_Ammo_F";
 					atlOffset=-0.0010890961;
 				};
-				class Item16
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3525.9231,19.633308,3548.0796};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=686;
-					type="Land_Missle_Trolley_02_F";
-					atlOffset=-3.6239624e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_refuel_fuelCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=-10;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isRepairFacility";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_rearm_rearmCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1200;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item17
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3507.5354,19.633345,3548.126};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=687;
-					type="Land_Missle_Trolley_02_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_refuel_fuelCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=-10;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isRepairFacility";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_rearm_rearmCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1200;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item18
+				class Item15
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -9310,83 +9134,7 @@ class Mission
 						nAttributes=7;
 					};
 				};
-				class Item19
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3543.2881,19.633345,3548.1997};
-					};
-					side="Empty";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=867;
-					type="Land_Missle_Trolley_02_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_refuel_fuelCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=-10;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isRepairFacility";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_rearm_rearmCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1200;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item20
+				class Item16
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -9591,7 +9339,7 @@ class Mission
 						nAttributes=10;
 					};
 				};
-				class Item21
+				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
@@ -9609,9 +9357,124 @@ class Mission
 					type="RHS_CH_47F";
 					atlOffset=-0.0011329651;
 				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3428.4297,21.461189,3699.9451};
+						angles[]={0,2.6580253,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						reportRemoteTargets=1;
+						receiveRemoteTargets=1;
+						reportOwnPosition=1;
+					};
+					id=928;
+					type="B_Plane_CAS_01_dynamicLoadout_F";
+				};
+				class Item19
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3544.3818,20.270344,3550.7893};
+						angles[]={6.2731905,6.2661881,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=929;
+					type="B_Slingload_01_Fuel_F";
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3544.4429,20.261969,3544.5198};
+						angles[]={-0,6.2691083,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=930;
+					type="B_Slingload_01_Ammo_F";
+				};
+				class Item21
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3525.6326,20.274965,3551.2444};
+						angles[]={6.2731905,6.2661881,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=931;
+					type="B_Slingload_01_Fuel_F";
+				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3525.6936,20.262037,3544.9749};
+						angles[]={-0,6.2691083,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=932;
+					type="B_Slingload_01_Ammo_F";
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3507.4023,20.270927,3550.8408};
+						angles[]={6.2731905,6.2661881,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=933;
+					type="B_Slingload_01_Fuel_F";
+				};
+				class Item24
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3507.4634,20.262037,3544.5713};
+						angles[]={-0,6.2691083,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=934;
+					type="B_Slingload_01_Ammo_F";
+				};
 			};
 			id=264;
-			atlOffset=-0.034164429;
+			atlOffset=0.0048274994;
 		};
 		class Item3
 		{
@@ -10182,9 +10045,10 @@ class Mission
 		{
 			dataType="Layer";
 			name="Carrier Group";
+			state=1;
 			class Entities
 			{
-				items=41;
+				items=45;
 				class Item0
 				{
 					dataType="Object";
@@ -13460,7 +13324,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={1381.7191,26.402544,1029.3286};
-						angles[]={-0,4.6286201,0};
+						angles[]={0,4.6286201,0};
 					};
 					side="Empty";
 					flags=4;
@@ -13760,14 +13624,210 @@ class Mission
 						nAttributes=10;
 					};
 				};
+				class Item41
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1379.077,25.259041,989.099};
+						angles[]={0,4.6230283,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=917;
+					type="B_Slingload_01_Ammo_F";
+					atlOffset=122.897;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isRepairFacility";
+							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item42
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1379.824,25.26004,1071.3101};
+						angles[]={0,4.6230283,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=918;
+					type="B_Slingload_01_Ammo_F";
+					atlOffset=122.898;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isRepairFacility";
+							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item43
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1332.326,25.244041,844.61993};
+						angles[]={0,4.6230283,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=919;
+					type="B_Slingload_01_Ammo_F";
+					atlOffset=0.00025558472;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item44
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1386.317,25.259453,911.47302};
+						angles[]={0,4.6174951,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=916;
+					type="B_Slingload_01_Fuel_F";
+					atlOffset=122.897;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_refuel_fuelCargo";
+							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=-10;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			id=365;
-			atlOffset=110.51928;
+			atlOffset=122.11977;
 		};
 		class Item13
 		{
 			dataType="Layer";
 			name="Střelnice";
+			state=1;
 			class Entities
 			{
 				items=159;
@@ -19547,6 +19607,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="CQB";
+			state=1;
 			class Entities
 			{
 				items=93;
@@ -24074,9 +24135,10 @@ class Mission
 		{
 			dataType="Layer";
 			name="Přístav";
+			state=1;
 			class Entities
 			{
-				items=11;
+				items=12;
 				class Item0
 				{
 					dataType="Object";
@@ -25199,214 +25261,19 @@ class Mission
 						nAttributes=10;
 					};
 				};
+				class Item11
+				{
+					dataType="Marker";
+					position[]={3242.905,0.15099999,4612.3149};
+					name="pristav";
+					text="Přístav";
+					type="mil_triangle";
+					id=902;
+					atlOffset=0.43821618;
+				};
 			};
 			id=897;
-			atlOffset=4.4166441;
-		};
-		class Item26
-		{
-			dataType="Marker";
-			position[]={3242.905,0.15099999,4612.3149};
-			name="pristav";
-			text="Přístav";
-			type="mil_triangle";
-			id=902;
-			atlOffset=0.43821618;
-		};
-		class Item27
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1386.317,25.259453,911.47302};
-				angles[]={0,4.6174951,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=916;
-			type="B_Slingload_01_Fuel_F";
-			atlOffset=122.897;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item28
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1379.077,25.259041,989.099};
-				angles[]={0,4.6230283,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=917;
-			type="B_Slingload_01_Ammo_F";
-			atlOffset=122.897;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isRepairFacility";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item29
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1379.824,25.26004,1071.3101};
-				angles[]={0,4.6230283,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=918;
-			type="B_Slingload_01_Ammo_F";
-			atlOffset=122.898;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isRepairFacility";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item30
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1332.326,25.244041,844.61993};
-				angles[]={0,4.6230283,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=919;
-			type="B_Slingload_01_Ammo_F";
-			atlOffset=0.00025558472;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			atlOffset=3.7564173;
 		};
 	};
 	class Connections
@@ -25462,7 +25329,7 @@ class Mission
 			{
 				linkID=4;
 				item0=260;
-				item1=253;
+				item1=928;
 				class CustomData
 				{
 					type="Sync";
