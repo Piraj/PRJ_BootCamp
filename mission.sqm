@@ -1119,7 +1119,7 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{this addAction [""Resetovat Cíle"", ""scripts\snipertargetreset.sqf""];" \n "this addAction [""Zapnout Dráhu Kulky"", ""scripts\BulletTraceOn.sqf""];" \n "this addAction [""Vypnout Dráhu Kulky"", ""scripts\BulletTraceOff.sqf""];}";
+						init="call{this addAction [""Resetovat Cíle"", ""scripts\snipertargetreset.sqf""];}";
 						disableSimulation=1;
 					};
 					id=279;
@@ -1142,7 +1142,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="images\sreset.paa";
+									value="images\reset.paa";
 								};
 							};
 						};
