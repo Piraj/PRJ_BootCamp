@@ -4,8 +4,8 @@ TrainingCourse_BulletCamera = !TrainingCourse_BulletCamera;
 
 if (TrainingCourse_BulletCamera) then
 {
-	hint "Bullet Camera enabled";
+	hint "Sledování Kulky zapnuto";
 } else
 {
-	hint "Bullet Camera disabled";
+	hint "Sledování Kulky vypnuto";
 };

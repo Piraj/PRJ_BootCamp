@@ -22,7 +22,7 @@ _camera camSetFOV 0.7;
 
 ShowCinemaBorder false;
 
-cutText ["Press 'Enter' to exit the bullet camera", "PLAIN DOWN"];
+cutText ["Zmáčkni 'Enter' pro ukončení kamery kulky", "PLAIN DOWN"];
 
 while {(alive _bullet) && !TrainingCourse_BulletCameraAbort} do
 {

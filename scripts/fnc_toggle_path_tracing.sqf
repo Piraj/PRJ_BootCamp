@@ -4,8 +4,8 @@ TrainingCourse_BulletPathTracing = !TrainingCourse_BulletPathTracing;
 
 if (TrainingCourse_BulletPathTracing) then
 {
-	hint "Bullet Path Tracing enabled";
+	hint "Dráha Kulky zapnuta";
 } else
 {
-	hint "Bullet Path Tracing disabled";
+	hint "Dráha Kulky vypnuta";
 };
