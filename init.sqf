@@ -1,3 +1,5 @@
+nopop = true;
+
 waitUntil {!isNull player};
 
 TrainingCourse_BulletPathTracing = false;
